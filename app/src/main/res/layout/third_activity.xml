@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textViewID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter record id"/>
+
+    <EditText
+        android:id="@+id/editTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/RecordtextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter name of Academic Record" />
+
+    <EditText
+        android:id="@+id/editTextRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:id="@+id/YeartextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the year you attained your qualification" />
+
+    <EditText
+        android:id="@+id/editTextYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textViewGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the attained results"/>
+
+    <EditText
+        android:id="@+id/editTextGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonShowupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="Delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel" />
+    </LinearLayout>
+
+</LinearLayout>
